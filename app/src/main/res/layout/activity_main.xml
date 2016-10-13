@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.johntitor.sensoracelerometro.MainActivity">
+
+    <TextView
+        android:text="eje X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/txtX" />
+
+    <TextView
+        android:text="eje Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtX"
+        android:layout_alignLeft="@+id/txtX"
+        android:layout_alignStart="@+id/txtX"
+        android:layout_marginTop="24dp"
+        android:id="@+id/txtY" />
+
+    <TextView
+        android:text="eje Z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/txtZ"
+        android:layout_below="@+id/txtY"
+        android:layout_alignLeft="@+id/txtY"
+        android:layout_alignStart="@+id/txtY" />
+</RelativeLayout>
